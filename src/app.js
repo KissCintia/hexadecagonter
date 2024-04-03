@@ -24,5 +24,5 @@ function startCalc(){
 }
 
 function calcArea(side){
-    return 4 * Math.pow(side, 2) * Math.tan(Math.PI/16)
+    return 4 * Math.pow(side, 2) * Math.cos(Math.PI/16)/Math.sin(Math.PI/16)
 }
